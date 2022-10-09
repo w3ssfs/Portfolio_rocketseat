@@ -1,0 +1,346 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c24;
+    color: #837E9F;
+
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-left {
+    height: 275px;
+    width: 348px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: #302F3D;
+
+}
+
+.picture {
+    width: 128px;
+    height: 128px;
+    border-radius: 80%;
+    margin-top: 32px;
+    background-image: url(https://avatars.githubusercontent.com/u/85897421?v=4);
+    background-size: cover;
+    border: 1.5px solid #00ff00;
+    margin-left: 50px;
+
+}
+
+.name {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 13px;
+}
+
+.name,
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-left {
+    background-color: #302F3D;
+    color: #837E9F;
+    width: 348px;
+    height: 348px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+    display: flex;
+
+    align-items: center;
+
+}
+
+.info {
+    display: flex;
+    margin-left: 40px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-i {
+    height: 26px;
+    padding: 10px;
+    filter: brightness(0) saturate(100%) invert(55%) sepia(15%) saturate(588%) hue-rotate(209deg) brightness(89%) contrast(86%);
+
+}
+
+.txt {
+    margin-left: 12px;
+    font-size: 13px;
+
+}
+
+.t {
+    margin-top: 30px;
+}
+
+
+.tec-left {
+    background-color: #302F3D;
+    width: 348px;
+    height: 170px;
+    margin: 40px 0px 0px 40px;
+    border-radius: 20px;
+
+}
+
+.txt-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 28px;
+}
+
+.ln-1,
+.ln-2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.ln {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 86px;
+    font-weight: bold;
+    margin: 0px 7px;
+    background-color: #CB92B1;
+    color: #000000;
+    border-radius: 30px;
+    font-size: 10px;
+}
+
+.ln2 {
+    margin-top: 20px;
+}
+
+.exp-left {
+    background-color: #302F3D;
+    width: 348px;
+    height: 140px;
+    margin: 40px 0px 0px 40px;
+    border-radius: 20px;
+}
+
+.exp-title,
+.edu-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-top: 28px;
+}
+
+.tier-1 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tier-2 {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.tier-3 {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.list-exp {
+    line-height: 5px;
+}
+
+.edu-left {
+    background-color: #302F3D;
+    width: 348px;
+    height: 260px;
+    margin: 40px 0px 0px 40px;
+    border-radius: 20px;
+}
+
+.list-edu,
+.list-exp {
+    margin-left: 30px;
+}
+
+
+.proj {
+    width: 952px;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #302F3D;
+    border-radius: 20px;
+    margin: 40px 30px 0px 50px;
+
+}
+
+.proj-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.proj-ext {
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 30px;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    margin: 40px 30px 0px 50px;
+}
+
+.projc-1 {
+    background-color: #302F3D;
+    width: 461px;
+    height: 186px;
+    border-radius: 20px;
+    margin-right: 14px;
+
+}
+
+.projc-2 {
+    background-color: #302F3D;
+    width: 461px;
+    height: 186px;
+    border-radius: 20px;
+    margin-left: 14px;
+}
+
+.card-title {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+    padding-top: 17px;
+    filter: brightness(0) saturate(100%) invert(55%) sepia(15%) saturate(588%) hue-rotate(209deg) brightness(89%) contrast(86%);
+}
+
+.card-txt-title {
+    margin-left: 20px;
+}
+
+.desc-card {
+    width: 80%;
+    margin-left: 30px;
+    padding-top: 0px;
+    font-size: 14px;
+    font-weight: normal;
+
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-footer-left {
+    filter: brightness(0) saturate(100%) invert(55%) sepia(15%) saturate(588%) hue-rotate(209deg) brightness(89%) contrast(86%);
+    margin-left: 30px;
+    padding-top: 12px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cicle {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    border: 1px solid rgb(248, 235, 235);
+    background-color: rgb(232, 232, 56);
+    box-shadow: 1px 1px 5px white;
+    margin-right: 14px;
+}
+
+.card-footer-rigth {
+
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    padding-top: 12px;
+
+
+}
+
+.last {
+    width: 952px;
+    height: 211px;
+    display: flex;
+    background-color: #302F3D;
+    border-radius: 20px;
+    margin: 40px 30px 0px 50px;
+
+}
+
+
+.picture-2 {
+    width: 128px;
+    height: 128px;
+    border-radius: 80%;
+    background-image: url(https://avatars.githubusercontent.com/u/85897421?v=4);
+    background-size: cover;
+    border: 1.5px solid #a6b6a6;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.last-r {
+    margin-left: 30px;
+    margin-top: 16px;
+
+}
+
+.last-desc {
+    line-height: 15px;
+}
+
+.desc-1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.desc-2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.last-desc-2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+.heh {
+    justify-content: space-between;
+    display: flex;
+}
